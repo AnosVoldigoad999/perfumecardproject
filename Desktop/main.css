@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 550px ;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 450px;
+    border-radius: 10px;
+}
+
+.pic{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.perfume{
+    float: right;
+    position: relative;
+    right: 185px;
+    top: 20px;
+    background-color: hsl(0, 0%, 100%); 
+    font-weight: 500px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Montserrat' ;
+    color: hsl(228, 12%, 48%);
+}
+
+a{
+    text-decoration: none;
+    background-color:hsl(158, 36%, 50%) ;
+    padding:10px 70px;
+    border-radius: 5px;
+    color: hsl(30, 38%, 92%);
+    float: right;
+    position: relative;
+    right: 25px ;
+    bottom: 190px;   
+}
+.title{
+    float: right;
+    position: relative;
+    height: 80px;
+    width: 200px;
+    background-color: hsl(0, 0%, 100%);
+    bottom:410px;
+    right: 70px;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Montserrat_2';
+}
+
+.des{
+    float: right;
+    position: relative;
+    height: 100px;
+    width: 200px;
+    bottom: 235px;
+    left: 140px;
+    background-color:hsl(0, 0%, 100%);
+    font-weight: 700px;
+}
+
+.price{
+    float: right;
+    position: relative;
+    left: 260px;
+    bottom: 140px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(158, 36%, 50%) ;
+    font-family:'Montserrat_2';;
+}
+
+s{
+    float: right;
+    position: relative;
+    bottom:190px;
+    left: 330px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(228, 12%, 48%);
+}
+a:hover {
+    background-color: hsl(158, 36%, 37%);
+}
+.main:hover{
+    box-shadow: 0 5px 5px 0 lightgrey;
+}
+
+@font-face {
+    font-family:'Montserrat' ;
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Space-mono';
+    src: url(./Space_Mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat_2';
+    src: url(./Montserrat/static/Montserrat-Bold.ttf);
+}
