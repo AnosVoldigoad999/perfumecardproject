@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 375px ;
+    height: 630px;
+    position: relative;
+    top: 50px;
+    left: 500px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.pic{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.perfume{
+    width: 100px;
+    letter-spacing: 2px;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    left:20px;
+    
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat' ;
+    color: hsl(228, 12%, 48%);
+}
+
+a{
+    text-decoration: none;
+    background-color:hsl(158, 36%, 50%) ;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 120px;
+    border-radius: 5px;
+    color: hsl(30, 38%, 92%);   
+    position: relative;
+    left: 30px;
+}
+.title{
+    width: 300px;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Montserrat_2';
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+}
+
+.des{
+    width: 300px;
+    font-weight: 700px;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    left : 20px;
+    bottom: 15px;
+}
+
+.price{
+    color: hsl(158, 36%, 50%) ;
+    font-family:'Montserrat_2';
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+    width: 200px;
+}
+
+s{
+    float: right;
+    color: hsl(228, 12%, 48%);
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    bottom: 65px;
+    right: 155px;
+}
+a:hover {
+    background-color: hsl(158, 36%, 37%);
+}
+.main:hover{
+    box-shadow: 0 5px 5px 0 lightgrey;
+}
+
+@font-face {
+    font-family:'Montserrat' ;
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Space-mono';
+    src: url(./Space_Mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat_2';
+    src: url(./Montserrat/static/Montserrat-Bold.ttf);
+}
+
+.else{
+    background-color:hsl(0, 0%, 100%) ;
+}
+
+.icon{
+    background-color:hsl(158, 36%, 50%) ; 
+}
+.icon:hover{
+    background-color: hsl(158, 36%, 37%);
+}
